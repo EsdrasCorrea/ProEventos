@@ -61,9 +61,6 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# Tye
-.tye/
-
 # StyleCop
 StyleCopReport.xml
 
@@ -305,9 +302,6 @@ paket-files/
 # FAKE - F# Make
 .fake/
 
-# Ionide - VsCode extension for F# Support
-.ionide/
-
 # CodeRush personal settings
 .cr/personal
 
@@ -438,6 +432,7 @@ $RECYCLE.BIN/
 .idea/
 *.sln.iml
 
+
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
@@ -484,3 +479,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Excluindo DB
+*.db
+*.db-shm
+*.db-wal

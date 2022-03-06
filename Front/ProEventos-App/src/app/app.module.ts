@@ -1,3 +1,6 @@
+import { FiltroComponent } from './shared/filtro/filtro.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { ContatoComponent } from './components/contato/contato.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
@@ -14,9 +17,10 @@ import { NgxSpinnerModule } from 'ngx-spinner';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EventosComponent } from './eventos/eventos.component';
-import { PalestrantesComponent } from './palestrantes/palestrantes.component';
-import { NavComponent } from './nav/nav.component';
+import { EventosComponent } from './components/eventos/eventos.component';
+import { PalestrantesComponent } from './components/palestrantes/palestrantes.component';
+import { PerfilComponent } from './components/perfil/perfil.component';
+import { NavComponent } from './shared/nav/nav.component';
 
 import { DateTimeFormatPipe } from './helpers/dateTimeFormat.pipe';
 
@@ -27,7 +31,11 @@ import { EventoService } from './service/evento.service';
     AppComponent,
     EventosComponent,
     PalestrantesComponent,
+    ContatoComponent,
+    DashboardComponent,
+    PerfilComponent,
     NavComponent,
+    FiltroComponent,
     DateTimeFormatPipe
    ],
   imports: [
